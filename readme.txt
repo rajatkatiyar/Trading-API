@@ -1,3 +1,9 @@
+Tis api is rest full api which connects with Tws Api and performs various task like placing order,getting execution detalis ,getting order status.
+this api uses various tools and frameworks like hibernate and Sql server Management studio to store and access data from database.for automation purpose we use Quartz Schedular which is persist and runs continiously .whenever any task completes Quartz sends specific task request.
+in the next update of Api we will have Active MQ to send  Acknowedge to user and Apache ignite to perform inmemory metadata over cache
+
+
+
 1-package --> com.finflock.config
     class- >   CorsFilter 
                                          this class have cors code to allow cross origion access
